@@ -1,0 +1,26 @@
+/* INTRODUÇÃO */
+Aplicativo para controle de aluguel de fantasias.
+O cliente precisa cadastrar todas as fantasias, a quantidade de cada,
+a cor, o tamanho, o sexo.
+
+Para alugar uma fantasia, é necessario o cpf e o telefone do usuario, a data do aluguel e a data da entrega, e a quantidade.
+
+Será necessário um formulário para o cadastro das fantasías.
+Outro formulário para inserir um novo aluguel.
+E uma página que lista as fantasias alugadas, onde é possível mudar o status para ENTREGUE.
+Uma página de relatórios e estatísticas.
+
+/* TECNOLOGIAS */
+-Ionic
+-Bower
+-Gulp
+-Sass
+-Banco SqLite
+
+/* METAS */
+1- Criar o esqueleto da aplicação
+2- Criar o formulário de cadastro de fantasias
+3- Criar o formulario de aluguel
+4- Criar a página onde lista as fantasias alugadas com paginação
+5- Criar a página de relatórios
+6- Criar opção para backup externo do banco (pesquisar formas)
