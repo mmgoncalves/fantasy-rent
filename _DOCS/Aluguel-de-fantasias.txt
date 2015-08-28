@@ -18,7 +18,7 @@ Uma página de relatórios e estatísticas.
 -Banco SqLite
 
 /* METAS */
-1- Criar o esqueleto da aplicação
+1- Criar o esqueleto da aplicação - OK
 2- Criar o formulário de cadastro de fantasias
 3- Criar o formulario de aluguel
 4- Criar a página onde lista as fantasias alugadas com paginação

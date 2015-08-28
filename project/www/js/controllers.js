@@ -53,4 +53,17 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+    console.log($stateParams.playlistId);
+})
+
+.controller('CreateController', function($scope) {
+    $scope.create = function(){
+        
+    };
+    
+    $scope.clearForm = function(){
+        $scope.add = {};
+    };
+    
+    $scope.clearForm();
 });

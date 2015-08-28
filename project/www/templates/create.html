@@ -1,0 +1,34 @@
+<ion-view view-title="Nova fantasia">
+    <ion-content>
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Nome da fantasia" ng-model="add.nome"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Quantidade" ng-model="add.quantidade"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Cor" ng-model="add.cor"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Tamanho" ng-model="add.tamanho"/>
+            </label>
+            
+            <label class="item item-input item-select">
+                <div class="input-label">Sexo</div>
+                <select ng-model="add.sexo">
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+                    <option>Ambos</option>
+                </select>
+            </label>
+                
+            <button class="button button-full button-positive" ng-click="">
+                Cadastrar
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
