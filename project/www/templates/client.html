@@ -1,0 +1,44 @@
+<ion-view view-title="Novo Cliente">
+    <ion-content>
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Nome do cliente" ng-model="add.name"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="CPF" ng-model="add.cpf"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Telefone" ng-model="add.phone"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Rua" ng-model="add.street"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Numero" ng-model="add.number"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Bairro" ng-model="add.district"/>
+            </label>
+            
+            <label class="item item-input">
+                <input type="text" placeholder="Cidade" value="Volta Redonda" ng-model="add.city"/>
+            </label>
+            
+            <label class="item item-input item-select">
+                <div class="input-label">Estado</div>
+                <select ng-model="add.uf">
+                    <option selected>RJ</option>
+                </select>
+            </label>
+                
+            <button class="button button-full button-positive" ng-click="">
+                Cadastrar
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
